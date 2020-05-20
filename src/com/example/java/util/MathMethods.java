@@ -1,8 +1,8 @@
 package com.example.java.util;
 
 public class MathMethods {
-    public static double addValues(String s1, String s2) {
-        double d1 = Double.parseDouble(s1);
+    public static double addValues(String input, String s2) {
+        double d1 = Double.parseDouble(input);
         double d2 = Double.parseDouble(s2);
         return d1 + d2;
     }

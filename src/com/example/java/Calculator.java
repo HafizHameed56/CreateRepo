@@ -7,7 +7,7 @@ import static com.example.java.util.MathMethods.*;
 public class Calculator {
 
     public static void main(String[] args) {
-        String string = getInput("Enter a numeric value: ");
+        String s = getInput("Enter a numeric value: ");
         String s2 = getInput("Enter a numeric value: ");
         String op = getInput("Choose an operation (+ - * /):");
 
