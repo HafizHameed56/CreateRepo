@@ -7,7 +7,7 @@ import static com.example.java.util.MathMethods.*;
 public class Calculator {
 
     public static void main(String[] args) {
-        String input = getInput("Enter a numeric value: ");
+        String s = getInput("Enter a numeric value: ");
         String s2 = getInput("Enter a numeric value: ");
         String op = getInput("Choose an operation (+ - * /):");
 
@@ -16,16 +16,16 @@ public class Calculator {
         try {
             switch (op) {
                 case "+":
-                    result = addValues(input, s2);
+                    result = addValues(s, s2);
                     break;
                 case "-":
-                    result = subtractValues(input, s2);
+                    result = subtractValues(s, s2);
                     break;
                 case "*":
-                    result = multiplyValues(input, s2);
+                    result = multiplyValues(s, s2);
                     break;
                 case "/":
-                    result = divideValues(input, s2);
+                    result = divideValues(s, s2);
                     break;
                 default:
                     System.out.println("Unrecognized operation!");
